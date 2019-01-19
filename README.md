@@ -1,6 +1,8 @@
 This little project is using code and explainations from:
+
 https://stackoverflow.com/questions/7580508/getting-chrome-to-accept-self-signed-localhost-certificate/43666288#43666288
-Thanks to (Brad Parks)[https://stackoverflow.com/users/26510/brad-parks]
+
+Thanks to [Brad Parks](https://stackoverflow.com/users/26510/brad-parks)
 
 On the Mac, you can create a certificate that's fully trusted by Chrome and Safari at the system level by doing the following:
 
