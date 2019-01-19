@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-openssl genrsa -out rootCA.key 2048
-openssl req -x509 -new -nodes -key rootCA.key -sha256 -days 1024 -out rootCA.pem
+rm -f certs/*.key
+rm -f certs/*.pem
+openssl genrsa -out certs/rootCA.key 2048
+openssl req -x509 -new -nodes -key certs/rootCA.key -sha256 -days 1024 -out certs/rootCA.pem
