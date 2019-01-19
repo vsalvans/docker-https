@@ -1,4 +1,4 @@
-This little project is using code and explainations from:
+This little project is using code and explanations from:
 
 https://stackoverflow.com/questions/7580508/getting-chrome-to-accept-self-signed-localhost-certificate/43666288#43666288
 
